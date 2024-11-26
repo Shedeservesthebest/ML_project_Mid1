@@ -1,0 +1,14 @@
+pandas
+numpy
+matplotlib
+yfinance 
+scikit-learn
+seaborn
+flask
+joblib
+pickle
+
+pipenv install numpy pandas scikit-learn flask joblib
+docker build -t predictastockprice .  
+
+docker run -it --rm -p 9990:9990 predictastockprice
